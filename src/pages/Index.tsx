@@ -3,7 +3,8 @@ import { Button } from "@/components/ui/button";
 import { ScrollSection } from "@/components/ScrollSection";
 import { HistoricalTooltip } from "@/components/HistoricalTooltip";
 import { TimelineModal } from "@/components/TimelineModal";
-import { Calendar, TrendingUp, XCircle, CheckCircle } from "lucide-react";
+import { Quiz } from "@/components/Quiz";
+import { Calendar, TrendingUp, XCircle, CheckCircle, GraduationCap } from "lucide-react";
 import heroImage from "@/assets/hero-farming.jpg";
 import achievementsImage from "@/assets/achievements.jpg";
 import reformImage from "@/assets/reform.jpg";
@@ -268,6 +269,26 @@ const Index = () => {
           <p className="text-lg text-muted-foreground italic">
             "Thực tiễn là tiêu chuẩn của chân lý"
           </p>
+        </div>
+      </ScrollSection>
+
+      {/* Quiz Section */}
+      <ScrollSection delay={700} className="py-20 bg-gradient-subtle">
+        <div className="max-w-6xl mx-auto px-6">
+          <div className="text-center mb-12">
+            <div className="inline-flex items-center gap-3 mb-6">
+              <div className="bg-primary/10 p-3 rounded-lg">
+                <GraduationCap className="h-8 w-8 text-primary" />
+              </div>
+              <h2 className="text-4xl font-bold text-foreground">
+                Kiểm tra kiến thức
+              </h2>
+            </div>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Trắc nghiệm về Tư tưởng Hồ Chí Minh và lịch sử Đảng Cộng sản Việt Nam
+            </p>
+          </div>
+          <Quiz />
         </div>
       </ScrollSection>
 
