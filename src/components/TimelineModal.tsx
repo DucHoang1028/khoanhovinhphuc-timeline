@@ -47,6 +47,11 @@ const timelineEvents = [
     title: "Nghị quyết 10-NQ/TW",
     description: "Khoán hộ chính thức được công nhận và phổ biến rộng rãi. Nông dân được quyền tự chủ trong sản xuất, đánh dấu thành công của việc sửa sai.",
   },
+  {
+    year: "2025",
+    title: "Nghị quyết 68-NQ/TW",
+    description: "Xác lập vị thế chiến lược của kinh tế tư nhân từ vị trí là “một động lực quan trọng” trở thành “động lực quan trọng nhất của nền kinh tế quốc gia”",
+  },
 ];
 
 export const TimelineModal = ({ open, onOpenChange }: TimelineModalProps) => {
