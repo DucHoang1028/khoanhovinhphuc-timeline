@@ -4,6 +4,7 @@ import { ScrollSection } from "@/components/ScrollSection";
 import { HistoricalTooltip } from "@/components/HistoricalTooltip";
 import { TimelineModal } from "@/components/TimelineModal";
 import { Quiz } from "@/components/Quiz";
+import ChatAssistant from "@/components/ChatAssistant";
 import { Calendar, TrendingUp, XCircle, CheckCircle, GraduationCap } from "lucide-react";
 import heroImage from "@/assets/hero-farming.jpg";
 import achievementsImage from "@/assets/achievements.jpg";
@@ -302,6 +303,8 @@ const Index = () => {
       </footer>
 
       <TimelineModal open={timelineOpen} onOpenChange={setTimelineOpen} />
+      
+      <ChatAssistant />
     </div>
   );
 };
