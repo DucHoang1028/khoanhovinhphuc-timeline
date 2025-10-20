@@ -244,6 +244,21 @@ const Index = () => {
                     </p>
                   </div>
                 </div>
+
+                <div className="flex items-start gap-4">
+                  <div className="bg-accent/10 p-2 rounded-full flex-shrink-0">
+                    <div className="w-8 h-8 bg-accent rounded-full flex items-center justify-center text-accent-foreground font-bold">
+                      4
+                    </div>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold text-foreground mb-2">Nghị quyết 68-NQ/TW (2025)</h3>
+                    <p className="text-muted-foreground">
+                      Khơi thông động lực phát triển kinh tế tư nhân Việt Nam
+                    </p>
+                  </div>
+                </div>
+
               </div>
             </div>
             
